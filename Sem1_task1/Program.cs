@@ -22,9 +22,7 @@ else
 
 // Написать программу, определяющую выходной день в неделе.
 
-using System.Diagnostics;
-
-Console.WriteLine("Введите день недели: ");
+/* Console.WriteLine("Введите день недели: ");
 string num = Console.ReadLine();
 switch(num)
 {
@@ -52,4 +50,18 @@ switch(num)
     default:
     Console.WriteLine("Нет такого дня недели");
     break;
-}
+} */
+
+/* Напишите программу, которая на вход принимает одно число (N), а на выходе показывает все целые числа в промежутке от -N до N.
+4 -> "-4, -3, -2, -1, 0, 1, 2, 3, 4"
+2 -> " -2, -1, 0, 1, 2"
+
+
+Console.WriteLine("Введите значение: ");
+int number = int.Parse(Console.ReadLine()!);
+
+for(int firstNumber = -number; firstNumber <= number; firstNumber++)
+{
+    Console.Write(firstNumber + " ");
+}  */
+
