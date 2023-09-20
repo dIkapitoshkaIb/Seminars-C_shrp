@@ -1,10 +1,15 @@
-﻿/* // написать программу, которая на вход принимает число и умножает его на себя(возводит в квадрат)
+﻿/* написать программу, которая на вход принимает число и умножает его на себя(возводит в квадрат)
 
 Console.WriteLine("Введите число: ");
 int number = int.Parse(Console.ReadLine()!);
 Console.WriteLine(number * number); */
 
-/* //Написать программу для нахождения квадрата.
+
+
+
+
+
+/* Написать программу для нахождения квадрата.
 
 Console.WriteLine("Введите число a: ");
 int a = int.Parse(Console.ReadLine()!);
@@ -20,9 +25,13 @@ else
     Console.WriteLine("Не является квадратом");
 } */
 
-// Написать программу, определяющую выходной день в неделе.
 
-/* Console.WriteLine("Введите день недели: ");
+
+
+
+/* Написать программу, определяющую выходной день в неделе.
+
+ Console.WriteLine("Введите день недели: ");
 string num = Console.ReadLine();
 switch(num)
 {
@@ -52,6 +61,11 @@ switch(num)
     break;
 } */
 
+
+
+
+
+
 /* Напишите программу, которая на вход принимает одно число (N), а на выходе показывает все целые числа в промежутке от -N до N.
 4 -> "-4, -3, -2, -1, 0, 1, 2, 3, 4"
 2 -> " -2, -1, 0, 1, 2"
@@ -64,4 +78,53 @@ for(int firstNumber = -number; firstNumber <= number; firstNumber++)
 {
     Console.Write(firstNumber + " ");
 }  */
+
+
+
+
+
+/* Написать программу, которая на вход принимает трёхзначное число и выводит его последнюю цифру
+
+Console.WriteLine("Введите значение: ");
+int num = int.Parse(Console.ReadLine()!);
+if (num > 99 && num < 1000)
+{
+    int last = (num % 10);
+    Console.WriteLine("Последнее число: " + last);
+}    
+else 
+    Console.WriteLine("Это не трёхзначное число");
+  */
+
+
+
+
+
+/* using System;
+
+class Program
+{
+static void Main(string[] args)
+{
+for (int i = 1; i <= 100; i++)
+{
+if (i % 15 == 0)
+{
+Console.WriteLine("FizzBuzz");
+}
+else if (i % 3 == 0)
+{
+Console.WriteLine("Fizz");
+}
+else if (i % 5 == 0)
+{
+Console.WriteLine("Buzz");
+}
+else
+{
+Console.WriteLine(i);
+}
+}
+}
+} */
 
