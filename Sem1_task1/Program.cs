@@ -128,3 +128,40 @@ Console.WriteLine(i);
 }
 } */
 
+
+/* 
+class Program
+{
+static void Main(string[] args)
+{
+Console.WriteLine("Введите трехзначное число:");
+int number = Convert.ToInt32(Console.ReadLine());
+int lastDigit = number % 10;
+if(number > 99 && number < 1000)
+{
+    Console.WriteLine("Последняя цифра числа: " + lastDigit);
+}
+else
+{
+    Console.WriteLine("Это не трёхзначное число");
+}
+}
+} */
+
+
+
+
+
+/* Console.WriteLine("Введите трехзначное число:");
+string number = Console.ReadLine()!;
+int len = number.Length;
+
+if(len == 3)
+{
+    Console.WriteLine(number[2]);
+}
+else
+{
+    Console.WriteLine("Это не трёхзначное число");
+}
+Console.WriteLine("Последнее число значения " + number + ": " + number[2]); */
