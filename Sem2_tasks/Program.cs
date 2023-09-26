@@ -49,7 +49,7 @@ Console.Write(number); */
 
 // Решение:
 
-/* int r = new Random().Next(10, 100);
+int r = new Random().Next(10, 100);
 Console.WriteLine(r);
 int fD = r / 10;
 int sD = r % 10;
@@ -64,4 +64,4 @@ else if(fD==sD)
 else
 {
     Console.WriteLine(sD);
-} */
+}
