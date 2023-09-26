@@ -51,7 +51,7 @@ Console.Write(number); */
 
 int r = new Random().Next(10, 100);
 Console.WriteLine(r);
-int fD = r / 10;
+/* int fD = r / 10;
 int sD = r % 10;
 if(fD>sD)
 {
@@ -64,4 +64,23 @@ else if(fD==sD)
 else
 {
     Console.WriteLine(sD);
-}
+} */
+
+// Решение через метод(VOID)
+
+void FindMaxDigit(int num)
+{
+    int fD = r / 10;
+    int sD = r % 10;
+    if (fD > sD)
+    {
+        Console.WriteLine(fD);
+    }
+    else if (fD == sD)
+    {
+        Console.WriteLine("цифры равны");
+    }
+    else
+    {
+        Console.WriteLine(sD);
+    }
